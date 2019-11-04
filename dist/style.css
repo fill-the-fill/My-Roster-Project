@@ -1,0 +1,68 @@
+body{
+   min-height: 100vh; 
+   background-color: rgba(255, 68, 0, 0.719);
+}
+
+#display-team{
+display: grid;
+grid-gap: 10px;
+grid-template-columns: 300px 300px 300px;
+position: absolute;
+top: 110px;
+left: 50%;
+transform: translate(-50%);
+/* min-width: 500px; */
+
+}
+
+.players{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.players:hover{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgba(238, 238, 238, 0.37);
+   box-shadow:         3px 3px 5px 6px rgba(116, 115, 115, 0.253); 
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.input-button{
+    display: grid;
+    max-width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    /* margin: 20px;  */
+}
+
+button{
+    /* margin: 30px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 100px;
+    background: transparent;
+    border: 1px solid rgba(127, 127, 230, 0.87);
+
+}
+
+button:hover{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 100px;
+    background: transparent;
+  
+
+}
+
+input{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
