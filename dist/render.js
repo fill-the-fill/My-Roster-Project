@@ -4,4 +4,5 @@ const renderer = function(data){
     const newHTML = template({data})
     console.log({data})
     $("#display-team").append(newHTML)
+        empty()
 }

@@ -1,10 +1,10 @@
 const express = require('express')
 const request = require('request')
 const app = express()
-const port = 1000
+const port = 6969
 const path = require('path')
 app.use(express.static(path.join(__dirname, 'dist')))
-app.use(express.static(path.join(__dirname, 'node_modules')))
+app.use(express.static(path.join(__dirname, 'node')))
 
 const teamToIDs = {
     "lakers": "1610612747",
@@ -34,14 +34,7 @@ app.get('/teams/:teamName', (req, res) => {
 
 
 
-
-
-
-
-//===========================================//
 app.listen(port, function () {
     console.log(`Running server on port ${port}`)
 })
-// const testRoutes = require('../utils/routes')
-
 
